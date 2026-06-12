@@ -11,6 +11,7 @@ def add(a: int, b: int) -> int:
         b (int): Second number.
 
     Returns:
+        dict
         int: Sum of a and b.
     """
     return a + b
@@ -35,7 +36,6 @@ def get_users(active: bool = False) -> dict:
         active (bool): When True, return only active users.
 
     Returns:
-        list[dict]: List of user records.
     """
     return {"users": [], "active_only": active}
 
